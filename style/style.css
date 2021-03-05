@@ -1,0 +1,53 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image: url("../images/background2.png");
+}
+.content {
+    background: rgba(0.3, 0.3, 0.3, 0.5);
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+}
+.content h1, .content h2 {
+    text-align: center;
+}
+.content button {
+    margin: auto;
+}
+.content img {
+    width: 80%;
+}
+header, footer {
+    margin: 0px;
+    padding: 10px 0px;
+    border: 0px;
+    width: 100%;
+    background: rgba(0.5, 0.5, 0.5, 0.3);
+}
+header img, footer img {
+    max-width: 1000px;
+    background: none;
+}
+footer p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+#versionsHeader span, #downloads span {
+    width: 5px;
+    display: inline-block;
+}
+#downloads {
+    margin: auto;
+}
+#downloads span {
+    width: 300px;
+}
+a {
+    color: lightgreen;
+    font-weight: bold;
+}

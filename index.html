@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Immersive HUD mod for Minecraft</title>
+        <link rel="stylesheet" href="style/style.css"/>
+        <link rel="icon" class="js-site-favicon" href="images/enojado_minecraft.png">
+        <script src="src/versionManagement.js"></script>
+        <script src="src/callbacks.js"></script>
+        <script src="src/loaders.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <img class="header" src="images/header2.png"/>
+        </header>
+        <div class="content">
+            <video width="800" height="600" controls>
+                <source src="https://github.com/Markil3/Markil3.github.io-MinecraftImmersiveHUD/releases/download/initial/immersive_hud_trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h1>About this Mod</h1>
+            <p>This Minecraft mod aims to move the ingame HUD out of the way whenever possible. Whenever an element updates
+            (i.e., health changes, you swap items, you look at something, etc.), the respective item will show up. However, once you've been able to see the information, it will fade away and allow you to enjoy your game without the clutter of unneeded HUD elements.</p>
+            <p>The following elements will only show up under certain conditions:</p>
+            <ul>
+                <li>The health and armor bars will only show up when your health changes (i.e. after taking damage), when your health is low or when holding food.</li>
+                <li>The hunger bar will only show up when your hunger level (not your saturation) changes, you are hungry, or when holding food.</li>
+                <li>The experience bar and level will only show upon gaining experience.</li>
+                <li>The health of your mount (i.e. your horse) will only show when its health changes.</li>
+                <li>The horse jump bar will only show when you are getting ready to jump.
+                <li>The hotbar will only show when an item you are holding changes or you change which slot is selected.</li>
+                <li>The crosshair will only show when you are looking at something or you are using a bow, crossbow, shield, or trident or holding a throwable item.</li>
+                <li>The hands will show only when you use an item or are holding/using one of the above specified items, or a map.</li>
+                <li>Potions will only show up when just applied or about to run out.</li>
+            </ul>
+            <p>
+                <button class="imgFlip prev"><</button>
+                <img prefix="images/screenshot" min="1" value="1" max="5" src="images/screenshot1.png"/>
+                <button class="imgFlip next">></button>
+            </p>
+            <h2>Issues</h2>
+            <p><a href="https://github.com/Markil3/MinecraftImmersiveHUD/issues">Github</a></p>
+            <h2>Download Now!</h2>
+            <p id="versionsHeader"></p>
+            <div id="downloads"><a href="https://www.github.com/Markil3/MinecraftImmersiveHUD/releases/">Releases</a></div>
+        </div>
+        <footer>
+            <p>Immersive HUD &#169; 2021 Markil 3.</p>
+            <p>Immersive HUD is licensed under GNU General Public License version 3.0.</p>
+            <p>Website by Markil 3. All rights reserved.</p>
+            <p>Minecraft &#169; 2009-2021 Mojang Studios. "Minecraft" is a trademark of Mojang Studios. Neither Immersive HUD nor Markil 3 are affiliated nor endorsed by Mojang Studios.</p>
+        </footer>
+    </body>
+</html>
